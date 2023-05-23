@@ -1,0 +1,9 @@
+.homeMainBlock {
+    width: 100%;
+    border: 3px solid red;
+}
+
+#cards-area .first-card {
+    width: 50%;
+    background: yellow;
+}

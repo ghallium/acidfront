@@ -1,0 +1,23 @@
+.searchBar {
+    width: 100%;
+}
+
+input {
+    background: #EAEAEA;
+    border: 0;
+    height: 30px;
+    width: 40%;
+}
+
+button {
+    border: 0;
+    height: 30px;
+    background: #85BD4C;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}

@@ -1,3 +1,5 @@
+import "./searchbar.css";
+
 function Searchbar() {
     return(
     <div className="searchBar">
