@@ -1,0 +1,36 @@
+[
+    {
+        "id": "rev0000",
+        "title": "The Legend of Zelda: Tears of the Kingdom",
+        "game": "The Legend of Zelda: Tears of the Kingdom",
+        "developer" : "Nintendo",
+        "publisher" : "Nintendo",
+        "author" : "Auteur-test"
+        
+    },
+    {
+        "id": "rev0001",
+        "title": "Darkest Dungeon II",
+        "game": "Darkest Dungeon II",
+        "developer" : "Nintendo",
+        "publisher" : "Nintendo",
+        "author" : "Auteur-test"
+        
+    },
+    {
+        "id": "rev0002",
+        "title": "Redfall",
+        "game": "Redfall",
+        "developer" : "Arkane",
+        "publisher" : "Bethesda",
+        "author" : "Auteur-test"
+    },
+    {
+        "id": "rev0003",
+        "title": "Star Wars: Jedi Survivor",
+        "game": "Star Wars: Jedi Survivor",
+        "developer" : "Respawn",
+        "publisher" : "EA",
+        "author" : "Auteur-test"
+    }
+]

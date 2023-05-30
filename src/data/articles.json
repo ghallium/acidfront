@@ -2,6 +2,7 @@
     {
         "id": "art0000",
         "title": "Pourquoi Final Fantasy VII Rebirth va tout baiser",
+        "date": "2023-05-30",
         "content-type": "Dossiers",
         "game": "Final Fantasy VII Rebirth",
         "author": "Auteur-test",
@@ -18,6 +19,7 @@
     {
         "id": "art0001",
         "title": "La croisière Samus LOL",
+        "date": "2023-05-30",
         "content-type": "News",
         "game": "Metroid Prime Remastered",
         "author": "Auteur-test",
@@ -35,6 +37,7 @@
     {
         "id": "art0002",
         "title": "Il sort quand, bordel ?",
+        "date": "2023-05-30",
         "content-type": "Dossiers",
         "game": "Hollow Knight: Silksong",
         "author": "Auteur-test",
@@ -51,6 +54,7 @@
     {
         "id": "art0003",
         "title": "ZELDEUXZELDEUXZELDEUXZELDEUXZELDEUXZELDEUXZELDEUX",
+        "date": "2023-05-30",
         "content-type": "News",
         "game": "The Legend of Zelda: Tears of the Kingdom",
         "author": "Auteur-test",
@@ -68,6 +72,7 @@
     {
         "id": "art0004",
         "title": "Diablo IV passe Gold",
+        "date": "2023-05-30",
         "content-type": "News",
         "game": "Diablo IV",
         "author": "Auteur-test",
@@ -85,6 +90,7 @@
     {
         "id": "art0005",
         "title": "Street 6: le retour de la bêta",
+        "date": "2023-05-30",
         "content-type": "News",
         "game": "Street Fighter 6",
         "author": "Auteur-test",
@@ -101,6 +107,7 @@
     {
         "id": "art0006",
         "title": "FFXVI sera cool n'en déplaise à Sephirod",
+        "date": "2023-05-30",
         "content-type": "Dossier",
         "game": "Final Fantasy XVI",
         "author": "Auteur-test",
@@ -118,6 +125,7 @@
     {
         "id": "art0007",
         "title": "Julien Chièze nous livre sa vérité",
+        "date": "2023-05-30",
         "content-type": "Tests",
         "game": null,
         "author": "Auteur-test",
