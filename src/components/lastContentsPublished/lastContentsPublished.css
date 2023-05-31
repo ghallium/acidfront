@@ -1,10 +1,12 @@
-.last-news-area {
-    width: 70%;
+p {
+    font-size: 14px;
 }
 
-.last-reviews-area {
-    width: 30%;
+.last-news-area {
+    width: 60%;
 }
+
+
 
 h2 {
     text-transform: uppercase;
@@ -13,7 +15,7 @@ h2 {
 
 .last-news-area h2 {
     display: block;
-    width: 22%;
+    width: 26%;
     padding-bottom: 3px;
     border-bottom: 4px solid #85BD4C;
 }
@@ -34,6 +36,7 @@ h2 {
     display: flex;
     
     
+    
 }
 
 .new-article-image {
@@ -41,8 +44,8 @@ h2 {
     margin-left: 15px;
     margin-bottom: 15px;
     background: #E52446;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     
 }
 
@@ -63,19 +66,64 @@ h2 {
 }
 
 .new-article-description {
-    margin-bottom: -10px;
+    margin-top: -5px;
 }
 
 .new-article-author {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
     color: #E52446;
+    text-transform: uppercase;
+    margin-top: 3px;
+}
+
+.last-reviews-area {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
 
 .last-reviews-area h2 {
     display: block;
-    width: 47%;
+    width: 44%;
     padding-bottom: 3px;
-    border-bottom: 4px solid #E52446;;
+    margin-left: 315px;
+    border-bottom: 4px solid #E52446;
+    
 }
+
+.last-reviews-block {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+}
+
+.new-review {
+    width: 80%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.last-reviews-block a {
+    text-decoration: none;
+    color: black;
+}
+
+.review-placeholder {
+    background: #85BD4C;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    
+}
+
+
 
