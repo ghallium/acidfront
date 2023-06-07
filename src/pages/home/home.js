@@ -16,7 +16,7 @@ function Home() {
           {featuredArticles.map((a) => (
                 <div className="featured-card">
                   {/* Contenu de la carte en vedette */}
-                  <div className="card-title">{a.title}</div>
+                  <div className="featured-card-title">{a.title}</div>
                 </div>
           ))}
           
@@ -24,7 +24,7 @@ function Home() {
             !a["article-une"] && (                
                   <div className="card" key={a.title}>
                      {/* Contenu de la carte normale, penser à retirer le slice */}
-                  <div className="card-title">{a.title.slice(0,20)}</div>
+                  <div className="card-title">{a.title.slice(0,30)}</div>
                 
                 </div>
             )
