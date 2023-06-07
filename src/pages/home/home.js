@@ -1,33 +1,41 @@
 import Searchbar from "../../components/searchbar/searchbar.js";
 import data from "../../data/articles.json";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import LastContentsPublished from "../../components/lastContentsPublished/lastContentsPublished.js";
 import "./home.css";
 
 function Home() {
-    const articles = data.slice(0, 7); // Sélectionne les 7 premiers articles
-  
-    return (
-     <>
+  const articles = data.slice(0, 7); // Sélectionne les 7 premiers articles
+  const featuredArticles = articles.filter((a) => a["article-une"]);
+
+  return (
+    <>
       <div className="homeMainBlock">
         <Searchbar />
         <div id="cards-area">
-          {articles.map((a, index) => (
-            <Link key={a.id} to={`/article/${a.id}`}>
-              <div className={`card${index === 0 ? " first-card" : ""}`}>
-                {/* Contenu de la carte */}
-                <div className="card-title">{a.title}</div>  
-              </div>
-              
-            </Link>
+          {featuredArticles.map((a) => (
+                <div className="featured-card">
+                  {/* Contenu de la carte en vedette */}
+                  <div className="card-title">{a.title}</div>
+                </div>
+          ))}
+          
+          {articles.map((a) => (
+            !a["article-une"] && (                
+                  <div className="card" key={a.title}>
+                     {/* Contenu de la carte normale, penser à retirer le slice */}
+                  <div className="card-title">{a.title.slice(0,20)}</div>
+                
+                </div>
+            )
           ))}
         </div>
       </div>
       <div className="bottomBlock">
-          <LastContentsPublished />
+        <LastContentsPublished />
       </div>
-    </>  
-    );
-  }
+    </>
+  );
+}
 
 export default Home;
