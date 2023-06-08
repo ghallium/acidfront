@@ -21,7 +21,7 @@ h2 {
 }
 
 .last-news-block {
-    width: 76%;
+    width: 100%;
     background: #eaeaea;
     padding-top: 2%;
     padding-bottom: 1%;
@@ -80,7 +80,7 @@ h2 {
 .last-reviews-area {
     width: 40%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-wrap: wrap;
     
 }

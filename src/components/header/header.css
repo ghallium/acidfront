@@ -5,7 +5,11 @@ header {
     
 }
 
-nav {
+.header__burger {
+    display: none;
+}
+
+.desktop-menu {
     background: #E52446;
     width: 40%;
     padding-top: 8px;
@@ -13,7 +17,11 @@ nav {
     margin-bottom: 15px;
 }
 
-nav a {
+.mobile-menu {
+    display: none;
+}
+
+.desktop-menu a {
     
     padding-left: 4%;
     padding-right: 4%;
@@ -23,9 +31,95 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover {
+.desktop-menu a:hover {
     background: #85BD4C;
     padding-top: 8px;
     padding-bottom: 8px;
     color: black;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .desktop-menu {
+        display: none;
+    }
+
+    .header__nav__close {
+        display: block;
+        cursor: pointer;
+        
+    }
+
+    .header__burger {
+        display: flex;
+        background: #E52446;
+        border-radius: 5px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .header__burger svg {
+        width: 44px;
+        height: 44px;
+        margin: 0 auto;
+        stroke: #fff;
+        
+    }
+
+    .header__nav__close svg {
+        stroke: #fff;
+        width: 44px;
+        height: 44px;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
+
+    .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20%;
+        justify-content: flex-start;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 300px;
+        height: 100vh;
+        background: #E52446;
+        z-index: 5;
+        transform: translateX(100%);
+        
+    }
+
+    .mobile-menu.open {
+        animation: transformMenu 300ms ease-in-out forwards;
+    }
+
+    @keyframes transformMenu {
+        0% {
+            transform: translateX(100%);
+        }
+
+        100% {
+            transform: initial;
+            
+        }
+    }
+
+    .mobile-menu a {
+        display: flex;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        color: white;
+        font-weight: 600;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
 }

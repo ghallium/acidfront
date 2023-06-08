@@ -49,6 +49,12 @@
     position: relative;
 }
 
+.featured-card img {
+    
+    object-fit: cover;
+    object-position: center;
+}
+
 .featured-card-title {
     color: white;
     text-transform: uppercase;
