@@ -7,6 +7,7 @@ input {
     border: 0;
     height: 30px;
     width: 40%;
+    
 }
 
 button {
@@ -20,4 +21,37 @@ button {
     padding-right: 15px;
     margin-bottom: 15px;
     cursor: pointer;
+}
+
+button svg {
+    display: none;
+}
+
+@media screen and (min-width: 350px) and (max-width: 1024px) {
+
+    .searchBar {
+        display: flex;
+        justify-content: center;
+    }
+
+    input {
+        width: 75%;
+        height: 40px;
+    }
+
+    button {
+        height: 40px;
+    }
+
+    button svg {
+        display: flex;
+        stroke: white;
+        width: 20px;
+    }
+
+    .searchbar-desktop-button-text {
+        display: none;
+    }
+
+    
 }
