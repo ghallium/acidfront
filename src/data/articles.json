@@ -3,7 +3,8 @@
         "id": "art0000",
         "title": "Pourquoi Final Fantasy VII Rebirth va tout baiser",
         "article-une": true,
-        "card": "http://guillaume-robert-devweb.fr/acidgame-cards/card-ffvii-rebirth.jpg",
+        "card": "http://guillaume-robert-devweb.fr/acidgame-cards/card-ff7-rebirth.webp",
+        "miniature": "http://guillaume-robert-devweb.fr/acidgame-miniatures/min-ff7-rebirth.webp",
         "date": "2023-05-30",
         "content-type": "Dossiers",
         "game": "Final Fantasy VII Rebirth",
@@ -21,7 +22,8 @@
     {
         "id": "art0001",
         "title": "La croisière Samus LOL",
-        "card": "http://guillaume-robert-devweb.fr/acidgame-cards/card-metroid.jpg",
+        "card": "http://guillaume-robert-devweb.fr/acidgame-cards/card-metroidprime.webp",
+        "miniature": "http://guillaume-robert-devweb.fr/acidgame-miniatures/min-metroid.webp",
         "date": "2023-05-30",
         "content-type": "News",
         "game": "Metroid Prime Remastered",
@@ -40,7 +42,8 @@
     {
         "id": "art0002",
         "title": "Il sort quand, bordel ?",
-        "card": "http://guillaume-robert-devweb.fr/acidgame-cards/card-silksong.jpg",
+        "card": "http://guillaume-robert-devweb.fr/acidgame-cards/card-hk-silksong.webp",
+        "miniature": "http://guillaume-robert-devweb.fr/acidgame-miniatures/min-hk-silksong.webp",
         "date": "2023-05-30",
         "content-type": "Dossiers",
         "game": "Hollow Knight: Silksong",
@@ -58,7 +61,8 @@
     {
         "id": "art0003",
         "title": "Zelda TotK c'est vraiment bien",
-        "card": "http://guillaume-robert-devweb.fr/acidgame-cards/card-zelda.jpg",
+        "card": "http://guillaume-robert-devweb.fr/acidgame-cards/card-zelda-totk.webp",
+        "miniature": "http://guillaume-robert-devweb.fr/acidgame-miniatures/min-zelda-totk.webp",
         "date": "2023-05-30",
         "content-type": "News",
         "game": "The Legend of Zelda: Tears of the Kingdom",
@@ -77,7 +81,8 @@
     {
         "id": "art0004",
         "title": "Diablo IV passe Gold",
-        "card": "http://guillaume-robert-devweb.fr/acidgame-cards/card-diablo.jpg",
+        "card": "http://guillaume-robert-devweb.fr/acidgame-cards/card-diablo4.webp",
+        "miniature": "http://guillaume-robert-devweb.fr/acidgame-miniatures/min-diablo4.webp",
         "date": "2023-05-30",
         "content-type": "News",
         "game": "Diablo IV",
@@ -96,7 +101,8 @@
     {
         "id": "art0005",
         "title": "Street 6: le retour de la bêta",
-        "card": "http://guillaume-robert-devweb.fr/acidgame-cards/card-street6.jpg",
+        "card": "http://guillaume-robert-devweb.fr/acidgame-cards/card-street6.webp",
+        "miniature": "http://guillaume-robert-devweb.fr/acidgame-miniatures/min-street6.webp",
         "date": "2023-05-30",
         "content-type": "News",
         "game": "Street Fighter 6",
@@ -114,7 +120,8 @@
     {
         "id": "art0006",
         "title": "FFXVI sera cool n'en déplaise à Sephirod",
-        "card": "http://guillaume-robert-devweb.fr/acidgame-cards/card-ffxvi.webp",
+        "card": "http://guillaume-robert-devweb.fr/acidgame-cards/card-ff16.webp",
+        "miniature": "http://guillaume-robert-devweb.fr/acidgame-miniatures/min-ff16.webp",
         "date": "2023-05-30",
         "content-type": "Dossier",
         "game": "Final Fantasy XVI",
@@ -133,6 +140,7 @@
     {
         "id": "art0007",
         "title": "Julien Chièze nous livre sa vérité",
+        "miniature": "http://guillaume-robert-devweb.fr/acidgame-miniatures/min-chieze.webp",
         "date": "2023-05-30",
         "content-type": "Tests",
         "game": null,

@@ -14,7 +14,12 @@ function Home() {
         <Searchbar />
         <div id="cards-area">
           {featuredArticles.map((a) => (
-                <div className="featured-card" style={{backgroundImage: `url(${a.card})`}}>
+                <div className="featured-card" style={{
+                  backgroundImage: `url(${a.card})`,
+                  backgroundPosition: 'center',
+                  backgroundSize: 'cover',
+                  backgroundRepeat: 'no-repeat',
+              }}>
                   {/* Contenu de la carte en vedette */}
                   <div className="featured-card-title">{a.title}</div>
                 </div>
@@ -22,7 +27,12 @@ function Home() {
           
           {articles.map((a) => (
             !a["article-une"] && (                
-                  <div className="card" key={a.title} style={{backgroundImage: `url(${a.card})`}}>
+                  <div className="card" key={a.title} style={{
+                    backgroundImage: `url(${a.card})`,
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat',
+                }}>
                      {/* Contenu de la carte normale, penser à retirer le slice */}
                   <div className="card-title">{a.title.slice(0,30)}</div>
                 

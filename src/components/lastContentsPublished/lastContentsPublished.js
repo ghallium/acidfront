@@ -22,7 +22,7 @@ function LastContentsPublished() {
           {articles.map((a, index) => (
             <Link key={a.id} to={`/article/${a.id}`}>
               <div className="new-article">
-                <div className="new-article-image"></div>
+                <div className="new-article-image" style={{backgroundImage: `url(${a.miniature})`}}></div>
                 <div className="new-article-info">
                   <Link key={a.id} to={`/article/${a.id}`}>
                     <h3>{a.title}</h3>
