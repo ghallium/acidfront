@@ -69,3 +69,36 @@
 .bottomBlock {
     display: flex;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    #cards-area {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .featured-card {
+        width: 90%;
+        height: 350px;
+        margin-bottom: 20px;
+        margin: 0 auto;
+    }
+
+    .featured-card-title {
+        top: 79%;
+    }
+
+    .card {
+        width: 90%;
+        height: 350px;
+        margin-bottom: 20px;
+        margin: 0 auto;
+    }
+
+    .card-title {
+        top: 90%;
+        width: 98%;
+    }
+
+}

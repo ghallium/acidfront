@@ -1,0 +1,30 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_green_stripe {
+    width: 100%;
+    background:#85BD4C;
+    height: 30px;
+}
+
+.footer_bg {
+    width: 100%;
+    background: #E52446;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.footer_links a {
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+}
