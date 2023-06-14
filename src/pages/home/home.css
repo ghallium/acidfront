@@ -70,6 +70,34 @@
     display: flex;
 }
 
+/*
+-----------------
+RESPONSIVE
+------------------
+*/
+
+/* Tablettes (paysage) | Desktop low-def */
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+
+    .featured-card {
+        height: 250px;
+    }
+
+    .featured-card-title {
+        font-size: 23px;
+        top: 78%;
+    }
+
+    .card-title {
+        font-size: 23px;
+        top: 54%;
+    }
+
+}
+
+/* Tablettes (portrait) */
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
     #cards-area {
@@ -105,6 +133,8 @@
 
 }
 
+/* Mobiles */
+
 @media screen and (min-width: 350px) and (max-width: 767px) {
 
     #cards-area {
@@ -117,14 +147,14 @@
     .featured-card {
         width: 90%;
         height: 250px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         
     }
 
     
 
     .featured-card-title {
-        top: 79%;
+        top: 42%;
     }
 
     .card {
@@ -135,7 +165,7 @@
     }
 
     .card-title {
-        top: 90%;
+        top: 71%;
         width: 98%;
     }
 

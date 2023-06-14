@@ -31,7 +31,7 @@ function LastContentsPublished() {
                   <Link key={a.id} to={`/article/${a.id}`}>
                     <p className="new-article-description">{truncateText(a.description, 200)}</p>
                   </Link>
-                  <p>
+                  <p className="article-author">
                     Par <span className="new-article-author">{a.author}</span>
                   </p>
                 </div>
@@ -48,7 +48,7 @@ function LastContentsPublished() {
               <div className="new-review">
                 <div className="new-review-info">
                   <h3>{r.title}</h3>
-                  <p> Par <span className="new-article-author">{r.author}</span></p>
+                  <p className="review-author"> Par <span className="new-article-author">{r.author}</span></p>
                 </div> 
                 <div className="review-placeholder"></div>
               </div>

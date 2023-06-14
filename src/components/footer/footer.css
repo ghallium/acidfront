@@ -22,9 +22,28 @@ footer {
     color: white;
 }
 
+.trademark {
+    font-weight: 500;
+}
+
 .footer_links a {
     color: white;
     padding-right: 10px;
     padding-left: 10px;
     text-decoration: none;
+}
+
+/*
+-----------------
+RESPONSIVE
+------------------
+*/
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+
+    .footer_links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
