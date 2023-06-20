@@ -14,7 +14,7 @@ function Header() {
     return(
         <header>
             <div className="headerImg">
-                <img src={Logo} alt="logo AcidGame"></img>
+                <Link to="/"><img src={Logo} alt="logo AcidGame"></img></Link>
             </div>
             <nav className="desktop-menu">
                 <Link to="/actu">Actu</Link>
