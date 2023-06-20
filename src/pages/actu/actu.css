@@ -1,9 +1,12 @@
 .actu-pageblock {
     width: 100%;
+    display: flex;
 }
 
 .actu-container {
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .actu-container a {
@@ -32,6 +35,12 @@
 .article-title {
     font-weight: 600;
     font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.article-date {
+    font-size: 13px;
     margin-left: 10px;
     margin-bottom: 5px;
 }
