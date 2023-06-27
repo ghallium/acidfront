@@ -1,5 +1,6 @@
 import Reviews from "../../data/reviews.json";
 import { Link } from "react-router-dom";
+import "./lastReviewsPublished.css";
 
 function lastReviewsPublished() {
 

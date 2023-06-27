@@ -32,6 +32,10 @@
     width: 60%;
 }
 
+.article-info p {
+    margin-left: 10px;
+}
+
 .article-title {
     font-weight: 600;
     font-size: 18px;
@@ -39,10 +43,23 @@
     margin-bottom: 5px;
 }
 
+.article-title:hover {
+    color: #E52446;
+}
+
 .article-date {
     font-size: 13px;
     margin-left: 10px;
+    
+}
+
+.article-author {
+    font-size: 13px;
+    
     margin-bottom: 5px;
+    font-weight: 700;
+    color: #E52446;
+    text-transform: uppercase;
 }
 
 .article-description {

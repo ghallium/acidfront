@@ -1,0 +1,61 @@
+[
+    {
+        "id": "dos0000",
+        "title": "Pourquoi Final Fantasy VII Rebirth va tout baiser",
+        "article-une": true,
+        "card": "http://guillaume-robert-devweb.fr/acidgame-cards/card-ff7-rebirth.webp",
+        "miniature": "http://guillaume-robert-devweb.fr/acidgame-miniatures/min-ff7-rebirth.webp",
+        "date": "2023-05-30",
+        "content-type": "Dossiers",
+        "game": "Final Fantasy VII Rebirth",
+        "author": "Auteur-test",
+        "author_bio": "Duis iaculis leo eget augue dictum bibendum. Donec eget erat scelerisque, ultrices lacuis quis, iaculis sapien. Quisque tincindunt congue dignissim. Pellentesque facilisis eleifend ante non feugiat.",
+        "tags" : [
+            "Final Fantasy VII Rebirth",
+            "Final Fantasy VII Remake Trilogy",
+            "Action/RPG"
+
+        ],
+        "description" : "Vivamus eu mollis elit. Fusce eget lobortis est, vitae tempus dolor. Duis pellentesque sit amet elit ac pulvinar. Nulla interdum eros in mollis molestie. Quisque congue in ipsum vel suscipit. Phasellus odio quam, auctor in condimentum at, interdum ut elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam ornare vehicula ligula, nec bibendum dui accumsan in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+        "text": " Aliquam ut risus at felis pretium mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce scelerisque orci ac ante venenatis, ut vulputate ligula euismod. Proin congue pharetra lorem. Donec fermentum vulputate dolor, quis rutrum ipsum tempus non. In imperdiet, ante quis molestie mollis, est elit dapibus nibh, at suscipit erat eros id sem. Ut tellus erat, fringilla sed vulputate vel, tristique nec libero. Donec tincidunt neque risus, et ultrices eros imperdiet vitae. Donec lectus justo, mattis sed ultricies vitae, pretium non nunc.Proin tempus non diam vitae ultricies. Donec et mi nec ipsum scelerisque laoreet. In hac habitasse platea dictumst. Donec erat quam, sagittis in lorem nec, eleifend placerat elit. Sed aliquet mauris eget justo porttitor, rhoncus mattis diam viverra. Nulla vel eros et mauris luctus tincidunt non eget mi. Curabitur id posuere nibh, vitae ullamcorper nisi. Curabitur molestie mattis eros, at posuere eros hendrerit eu. Duis posuere velit eu ex scelerisque, eget blandit purus molestie. Quisque ac semper odio, eu tempus diam. Quisque pretium enim purus, a ornare urna congue sed. Aliquam semper tincidunt lacus, a rutrum massa mattis et. Aenean at enim a justo molestie luctus. Nam leo massa, elementum id arcu sed, euismod scelerisque dolor. Ut pellentesque volutpat feugiat. Cras dictum mattis quam vitae tincidunt."
+    },
+    {
+        "id": "dos0001",
+        "title": "Il sort quand, bordel ?",
+        "card": "http://guillaume-robert-devweb.fr/acidgame-cards/card-hk-silksong.webp",
+        "miniature": "http://guillaume-robert-devweb.fr/acidgame-miniatures/min-hk-silksong.webp",
+        "date": "2023-05-30",
+        "content-type": "Dossiers",
+        "game": "Hollow Knight: Silksong",
+        "author": "Auteur-test",
+        "author_bio": "Duis iaculis leo eget augue dictum bibendum. Donec eget erat scelerisque, ultrices lacuis quis, iaculis sapien. Quisque tincindunt congue dignissim. Pellentesque facilisis eleifend ante non feugiat.",
+        "tags" : [
+            "Hollow Knight: Silksong",
+            "Team Cherry",
+            "Vaporwares"
+
+        ],
+        "description" : "Vivamus eu mollis elit. Fusce eget lobortis est, vitae tempus dolor. Duis pellentesque sit amet elit ac pulvinar. Nulla interdum eros in mollis molestie. Quisque congue in ipsum vel suscipit.",
+        "text": " Aliquam ut risus at felis pretium mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce scelerisque orci ac ante venenatis, ut vulputate ligula euismod. Proin congue pharetra lorem. Donec fermentum vulputate dolor, quis rutrum ipsum tempus non. In imperdiet, ante quis molestie mollis, est elit dapibus nibh, at suscipit erat eros id sem. Ut tellus erat, fringilla sed vulputate vel, tristique nec libero. Donec tincidunt neque risus, et ultrices eros imperdiet vitae. Donec lectus justo, mattis sed ultricies vitae, pretium non nunc.Proin tempus non diam vitae ultricies. Donec et mi nec ipsum scelerisque laoreet. In hac habitasse platea dictumst. Donec erat quam, sagittis in lorem nec, eleifend placerat elit. Sed aliquet mauris eget justo porttitor, rhoncus mattis diam viverra. Nulla vel eros et mauris luctus tincidunt non eget mi. Curabitur id posuere nibh, vitae ullamcorper nisi. Curabitur molestie mattis eros, at posuere eros hendrerit eu. Duis posuere velit eu ex scelerisque, eget blandit purus molestie. Quisque ac semper odio, eu tempus diam. Quisque pretium enim purus, a ornare urna congue sed. Aliquam semper tincidunt lacus, a rutrum massa mattis et. Aenean at enim a justo molestie luctus. Nam leo massa, elementum id arcu sed, euismod scelerisque dolor. Ut pellentesque volutpat feugiat. Cras dictum mattis quam vitae tincidunt."
+    },
+    {
+        "id": "dos0002",
+        "title": "FFXVI sera cool n'en déplaise à Sephirod",
+        "card": "http://guillaume-robert-devweb.fr/acidgame-cards/card-ff16.webp",
+        "miniature": "http://guillaume-robert-devweb.fr/acidgame-miniatures/min-ff16.webp",
+        "date": "2023-05-30",
+        "content-type": "Dossier",
+        "game": "Final Fantasy XVI",
+        "author": "Auteur-test",
+        "author_bio": "Duis iaculis leo eget augue dictum bibendum. Donec eget erat scelerisque, ultrices lacuis quis, iaculis sapien. Quisque tincindunt congue dignissim. Pellentesque facilisis eleifend ante non feugiat.",
+        "tags" : [
+            "Jeux cools édités par des grosses boîtes dirigées par des fils de pute",
+            "Final Fantasy",
+            "Baston"
+            
+
+        ],
+        "description" : "Vivamus eu mollis elit. Fusce eget lobortis est, vitae tempus dolor. Duis pellentesque sit amet elit ac pulvinar. Nulla interdum eros in mollis molestie. Quisque congue in ipsum vel suscipit.",
+        "text": " Aliquam ut risus at felis pretium mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce scelerisque orci ac ante venenatis, ut vulputate ligula euismod. Proin congue pharetra lorem. Donec fermentum vulputate dolor, quis rutrum ipsum tempus non. In imperdiet, ante quis molestie mollis, est elit dapibus nibh, at suscipit erat eros id sem. Ut tellus erat, fringilla sed vulputate vel, tristique nec libero. Donec tincidunt neque risus, et ultrices eros imperdiet vitae. Donec lectus justo, mattis sed ultricies vitae, pretium non nunc.Proin tempus non diam vitae ultricies. Donec et mi nec ipsum scelerisque laoreet. In hac habitasse platea dictumst. Donec erat quam, sagittis in lorem nec, eleifend placerat elit. Sed aliquet mauris eget justo porttitor, rhoncus mattis diam viverra. Nulla vel eros et mauris luctus tincidunt non eget mi. Curabitur id posuere nibh, vitae ullamcorper nisi. Curabitur molestie mattis eros, at posuere eros hendrerit eu. Duis posuere velit eu ex scelerisque, eget blandit purus molestie. Quisque ac semper odio, eu tempus diam. Quisque pretium enim purus, a ornare urna congue sed. Aliquam semper tincidunt lacus, a rutrum massa mattis et. Aenean at enim a justo molestie luctus. Nam leo massa, elementum id arcu sed, euismod scelerisque dolor. Ut pellentesque volutpat feugiat. Cras dictum mattis quam vitae tincidunt."
+    }
+]

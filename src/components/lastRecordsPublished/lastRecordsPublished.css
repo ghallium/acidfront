@@ -1,0 +1,35 @@
+.last-records-component-block {
+    width: 100%;
+}
+
+.last-records-component-block h2 {
+    text-transform: uppercase;
+}
+
+.last-records-component-block a {
+    text-decoration: none;
+}
+
+.last-records-component-block h3 {
+    font-size: 18px;
+    color: grey;
+}
+
+.record {
+    width: 100%;
+}
+
+.record-title {
+    width: 70%;
+}
+
+.record-author {
+    color: grey;
+}
+
+.author-name {
+    font-weight: 700;
+    color: #E52446;
+    text-transform: uppercase;
+}
+
