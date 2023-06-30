@@ -4,9 +4,13 @@
 }
 
 .actu-container {
-    width: 100%;
+    width: 60%;
     display: flex;
     flex-direction: column;
+}
+
+.other-contents {
+    width: 40%;
 }
 
 .actu-container a {

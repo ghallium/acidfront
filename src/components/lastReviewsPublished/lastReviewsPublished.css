@@ -7,6 +7,12 @@
     color: grey;
 }
 
+.last-reviews-component-block h2 {
+    width: 35%;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #E52446;
+}
+
 .review {
     display: flex;
     

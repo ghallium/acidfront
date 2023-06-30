@@ -1,0 +1,43 @@
+.author-block {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.author-block-name h4 {
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #85BD4C;
+    
+    
+}
+
+.author-block-pp {
+    background: #85BD4C;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: -48px;
+}
+
+
+.author-block-pp img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    
+}
+
+.author-bio {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.author-bio p {
+    font-size: 16px;
+}

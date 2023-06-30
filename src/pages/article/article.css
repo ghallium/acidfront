@@ -1,0 +1,33 @@
+.article-page-area {
+    width: 100%;
+    display: flex;
+}
+
+.article-page-block {
+    width: 60%;
+}
+
+.article-page-block h2 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.article-intro {
+    width: 80%;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.article-text {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.writer-block {
+    width: 60%;
+}
+
+.article-aside {
+    width: 40%;
+}
