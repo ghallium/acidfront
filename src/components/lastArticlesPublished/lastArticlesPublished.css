@@ -2,6 +2,12 @@
     width: 100%;
 }
 
+.last-articles-component h2 {
+    width: 40%;
+    border-bottom: 4px solid #85BD4C;
+    padding-bottom: 5px;
+}
+
 .last-articles-component-block {
     background: #eaeaea;
     width: 80%;

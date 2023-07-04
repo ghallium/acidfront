@@ -27,15 +27,16 @@ function Article() {
                 <div className="article-image"><img src={foundArticle.card} alt="texte placeholder à changer"/></div>
                 <div className="article-intro">{foundArticle.description}</div>
                 <div className="article-text">{foundArticle.text}</div>
+                <div className="writer-block">
+                    <AuthorBio />
+                </div>
             </div>
             <div className="article-aside">
                 <LastArticlesPublished />
                 <LastReviewsPublished />
             </div>
         </div>
-        <div className="writer-block">
-            <AuthorBio />
-        </div>
+        
     </>    
     )
     } 
