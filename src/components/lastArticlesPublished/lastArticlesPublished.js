@@ -32,7 +32,7 @@ function LastArticlesPublished() {
                         </Link>
                     ))}
                 </div>
-                <Link to="/actu">Voir tous les derniers articles</Link>
+                <Link to="/actu" className="more-articles">Voir tous les derniers articles</Link>
             </div>
         </>
     );

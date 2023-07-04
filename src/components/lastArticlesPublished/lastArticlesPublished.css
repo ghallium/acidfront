@@ -46,3 +46,19 @@
     color: #E52446;
     text-transform: uppercase;
 }
+
+.more-articles {
+    
+    color: #E52446;
+    text-decoration: none;
+    padding: 8px;
+    font-weight: 600;
+    border: 1px solid #E52446;
+    border-radius: 5px;
+}
+
+.more-articles:hover {
+    border: 0;
+    background: #E52446;
+    color: white;
+}
