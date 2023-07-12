@@ -4,10 +4,13 @@ import "./lastReviewsPublished.css";
 
 function lastReviewsPublished() {
 
+    const lastReviews = Reviews.slice(0,3);
+
     return (
+    <>
         <div className="last-reviews-component-block">
             <h2>Les derniers tests</h2>
-            {Reviews.map((review, index) => (
+            {lastReviews.map((review, index) => (
                 <Link key={review.id} to={`/test/${review.id}`}>
                     <div className="review">
                         <div className="review-info">
@@ -21,6 +24,10 @@ function lastReviewsPublished() {
                 </Link>
             ))}
         </div>
+        <div>
+        <Link to="/tests" className="more-reviews">Voir tous les tests</Link>
+        </div>
+    </>     
     )
 }
 

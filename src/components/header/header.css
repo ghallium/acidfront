@@ -38,6 +38,29 @@ header {
     color: black;
 }
 
+/*
+-----------------
+RESPONSIVE
+------------------
+*/
+
+/* Tablettes (paysage) | Desktop low-def */
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+
+    header {
+        align-items: center;
+    }
+
+    .desktop-menu {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+/* Tablettes (portrait) */
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
     header {
@@ -123,6 +146,8 @@ header {
         text-transform: uppercase;
     }
 }
+
+/* Mobiles */
 
 @media screen and (min-width: 350px) and (max-width: 767px) {
 

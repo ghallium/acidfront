@@ -4,6 +4,9 @@
 
 .last-records-component-block h2 {
     text-transform: uppercase;
+    width: 330px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #85BD4C;
 }
 
 .last-records-component-block a {
@@ -31,5 +34,95 @@
     font-weight: 700;
     color: #E52446;
     text-transform: uppercase;
+}
+
+.more-records {
+    margin-top: 30px;
+}
+
+.more-records a {
+    color: #85BD4C;
+    font-weight: 700;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #85BD4C;
+}
+
+.more-records a:hover {
+    color: white;
+    background: #85BD4C;
+}
+
+/*
+-----------------
+RESPONSIVE
+------------------
+*/
+
+/* Tablettes (paysage) | Desktop low-def */
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+
+    .last-records-component-block {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .last-records-component-block h2 {
+        margin: 0 auto;
+    }
+
+    .record {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .record-title {
+        width: 100%;
+    }
+
+    .more-records {
+        margin-bottom: 40px;
+    }
+    
+
+}
+
+/* Tablettes (portrait) */ 
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .last-records-component-block {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        
+        
+    
+    }
+
+    .last-records-component-block h2 {
+        margin: 0 auto;
+    }
+
+    .record {
+        margin-top: 30px;
+        margin-left: 25%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .more-records {
+        margin-left: 38%;
+        margin-bottom: 50px;
+    }
+    
+
 }
 

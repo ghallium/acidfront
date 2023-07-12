@@ -49,16 +49,16 @@
 
 .more-articles {
     
-    color: #E52446;
+    color: #85BD4C;
     text-decoration: none;
     padding: 8px;
     font-weight: 600;
-    border: 1px solid #E52446;
+    border: 1px solid #85BD4C;
     border-radius: 5px;
 }
 
 .more-articles:hover {
     border: 0;
-    background: #E52446;
+    background: #85BD4C;
     color: white;
 }

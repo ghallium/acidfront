@@ -27,6 +27,25 @@ button svg {
     display: none;
 }
 
+/*
+-----------------
+RESPONSIVE
+------------------
+*/
+
+/* Tablettes (paysage) | Desktop low-def */
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+
+    .searchBar {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+/* Mobiles -> Tablettes (portrait) */
+
 @media screen and (min-width: 350px) and (max-width: 1024px) {
 
     .searchBar {

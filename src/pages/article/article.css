@@ -34,3 +34,19 @@
 .article-aside {
     width: 40%;
 }
+
+/*
+-----------------
+RESPONSIVE
+------------------
+*/
+
+/* Tablettes (paysage) | Desktop low-def */
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+
+    .article-page-area {
+        flex-direction: column;
+    }
+
+}

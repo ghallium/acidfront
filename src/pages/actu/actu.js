@@ -15,21 +15,23 @@ function Actu() {
                 <h2>Toutes les dernières news</h2>
                 {ArticlesData.filter((adata) => adata["content-type"] === "News").map((adata) => (
                     <Link key={adata.id} to={`/article/${adata.id}`}>
-                        <div className="article">
-                            <div
-                                className="article-minia"
-                                style={{
-                                    backgroundImage: `url(${adata.miniature})`,
-                                    backgroundPosition: "center",
-                                    backgroundSize: "cover",
-                                    backgroundRepeat: "no-repeat",
-                                }}
-                            ></div>
-                            <div className="article-info">
-                                <div className="article-title">{adata.title}</div>
-                                <div className="article-date">{adata.date}</div>
-                                <p>Par <span className="article-author">{adata.author}</span></p>
-                                <div className="article-description">{adata.description}</div>
+                        <div className="article-container">
+                            <div className="article">
+                                <div
+                                    className="article-minia"
+                                    style={{
+                                        backgroundImage: `url(${adata.miniature})`,
+                                        backgroundPosition: "center",
+                                        backgroundSize: "cover",
+                                        backgroundRepeat: "no-repeat",
+                                    }}
+                                ></div>
+                                <div className="article-info">
+                                    <div className="article-title">{adata.title}</div>
+                                    <div className="article-date">{adata.date}</div>
+                                    <p>Par <span className="article-author">{adata.author}</span></p>
+                                    <div className="article-description">{adata.description}</div>
+                                </div>
                             </div>
                         </div>
                     </Link>

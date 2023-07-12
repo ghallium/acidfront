@@ -9,9 +9,6 @@
     flex-direction: column;
 }
 
-.other-contents {
-    width: 40%;
-}
 
 .actu-container a {
     text-decoration: none;
@@ -69,4 +66,119 @@
 .article-description {
     font-size: 14px;
     margin-left: 10px;
+}
+
+.other-contents {
+    width: 40%;
+}
+
+/*
+-----------------
+RESPONSIVE
+------------------
+*/
+
+/* Tablettes (paysage) | Desktop low-def */
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+
+    .actu-pageblock {
+        flex-direction: column;
+    }
+
+    .actu-container {
+        width: 100%;
+        align-items: center;
+        
+    }
+
+    .article-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .other-contents {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+}
+
+/* Tablettes (portrait) */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .actu-pageblock {
+        flex-direction: column;
+    }
+
+    .actu-container {
+        width: 100%;
+        align-items: center;
+        
+    }
+
+    .article-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article {
+        margin-bottom: 30px;
+    }
+
+    .article-info {
+        margin-top: -5px;
+    }
+
+    .other-contents {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
+
+/* Mobiles */ 
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+
+    .actu-pageblock {
+        flex-direction: column;
+    }
+
+    .actu-container {
+        width: 100%;
+        align-items: center;
+        
+    }
+
+    .article-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article {
+        margin-bottom: 30px;
+    }
+
+    .article-info {
+        margin-top: -5px;
+    }
+
+    .other-contents {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
 }
