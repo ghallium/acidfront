@@ -29,7 +29,7 @@ function Actu() {
                                 <div className="article-info">
                                     <div className="article-title">{adata.title}</div>
                                     <div className="article-date">{adata.date}</div>
-                                    <p>Par <span className="article-author">{adata.author}</span></p>
+                                    <p className="article-author">Par <span className="author-name">{adata.author}</span></p>
                                     <div className="article-description">{adata.description}</div>
                                 </div>
                             </div>

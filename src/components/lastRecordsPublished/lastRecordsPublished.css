@@ -126,3 +126,32 @@ RESPONSIVE
 
 }
 
+@media screen and (min-width: 350px) and (max-width: 767px) {
+
+    .last-records-component-block {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        
+        
+    
+    }
+
+    .last-records-component-block h2 {
+        margin: 0 auto;
+    }
+
+    .record {
+        margin-top: 30px;
+        margin-left: 20%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .more-records {
+        margin-left: 23%;
+        margin-bottom: 50px;
+    }
+}

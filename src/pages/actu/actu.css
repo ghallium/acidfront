@@ -159,6 +159,10 @@ RESPONSIVE
         
     }
 
+    .actu-container h2 {
+        text-align: center;
+    }
+
     .article-container {
         display: flex;
         flex-direction: column;
@@ -169,9 +173,22 @@ RESPONSIVE
         margin-bottom: 30px;
     }
 
+    .article-minia {
+        width: 150px;
+        height: 230px;
+    }
+
     .article-info {
         margin-top: -5px;
     }
+
+    .article-date {
+        margin-bottom: 15px;
+    }
+
+    .article-description {
+        font-size: 13px;
+    }    
 
     .other-contents {
         width: 100%;
