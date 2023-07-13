@@ -47,6 +47,28 @@ RESPONSIVE
 
     .article-page-area {
         flex-direction: column;
+        align-items: center;
     }
+
+    .article-page-block h2 {
+
+        text-align: center;
+
+    }
+
+    .article-image img {
+        width: 600px;
+    }
+
+    .article-intro, .article-text, .writer-block {
+        width: 100%;
+    }
+
+    .article-aside {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    
 
 }

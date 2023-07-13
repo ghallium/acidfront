@@ -32,8 +32,12 @@ function Article() {
                 </div>
             </div>
             <div className="article-aside">
-                <LastArticlesPublished />
-                <LastReviewsPublished />
+                <div className="aside-last-articles-container">
+                    <LastArticlesPublished />
+                </div>
+                <div className="aside-last-reviews-container">
+                    <LastReviewsPublished />
+                </div>
             </div>
         </div>
         

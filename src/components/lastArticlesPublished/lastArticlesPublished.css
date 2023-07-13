@@ -3,7 +3,7 @@
 }
 
 .last-articles-component h2 {
-    width: 40%;
+    width: 295px;
     border-bottom: 4px solid #85BD4C;
     padding-bottom: 5px;
 }
@@ -61,4 +61,31 @@
     border: 0;
     background: #85BD4C;
     color: white;
+}
+
+/*
+-----------------
+RESPONSIVE
+------------------
+*/
+
+/* Tablettes (paysage) | Desktop low-def */
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+
+    .last-articles-component {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .last-articles-component-block {
+        margin-bottom: 30px;
+    }
+
+    .more-articles {
+        margin-bottom: 30px;
+    }
+
 }
