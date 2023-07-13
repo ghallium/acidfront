@@ -24,7 +24,7 @@ function Article() {
                 <div className="article-date-time-author">
                     <p>Par <span className="author-name">{foundArticle.author} </span><span className="article-date">{foundArticle.date}</span></p>
                 </div>
-                <div className="article-image"><img src={foundArticle.card} alt="texte placeholder à changer"/></div>
+                <div className="article-image"><img src={foundArticle.card} alt="une-article"/></div>
                 <div className="article-intro">{foundArticle.description}</div>
                 <div className="article-text">{foundArticle.text}</div>
                 <div className="writer-block">

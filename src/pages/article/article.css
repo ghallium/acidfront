@@ -50,6 +50,10 @@ RESPONSIVE
         align-items: center;
     }
 
+    .article-page-block {
+        width: 100%;
+    }
+
     .article-page-block h2 {
 
         text-align: center;
@@ -69,6 +73,90 @@ RESPONSIVE
         margin-bottom: 30px;
     }
 
+}
+
+/* Tablettes (portrait) */ 
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .article-page-area {
+        flex-direction: column;
+        
+    }
+
+    .article-page-block h2 {
+        margin-left: 9%;
+    }
+
+    .article-page-block {
+        width: 100%;
+    }
     
+    .article-date-time-author {
+        margin-left: 9%;
+    }
+
+    .article-image img {
+        width: 100%;
+    }
+
+    .article-intro, .article-text {
+        width: 95%;
+        margin-left: 3%;
+        
+    }
+
+    .article-aside {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .writer-block {
+        margin-left: 3%;
+    }
+
+}
+
+/* Mobiles */ 
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+
+    .article-page-area {
+        flex-direction: column;
+        
+    }
+
+    .article-page-block h2 {
+        margin-left: 6%;
+        font-size: 25px;
+    }
+
+    .article-page-block {
+        width: 100%;
+    }
+    
+    .article-date-time-author {
+        margin-left: 6%;
+    }
+
+    .article-image img {
+        width: 100%;
+        
+    }
+
+    .article-intro, .article-text {
+        width: 95%;
+        margin-left: 3%;
+        font-size: 16px;
+    }
+
+    .article-aside {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .writer-block {
+        margin-left: 3%;
+    }
 
 }

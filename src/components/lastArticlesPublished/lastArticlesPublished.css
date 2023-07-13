@@ -89,3 +89,24 @@ RESPONSIVE
     }
 
 }
+
+/* Tablettes (portrait) */ 
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .last-articles-component {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .last-articles-component-block {
+        margin-bottom: 30px;
+    }
+
+    .more-articles {
+        margin-bottom: 30px;
+    }
+
+}
